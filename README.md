@@ -2,11 +2,11 @@
 
 This is an implementation for a live order board library with the following public functions -
 
-**public String registerNewOrder(String userId, double qty, BigDecimal pricePerUnit, OrderType type)
+**public String registerNewOrder(String userId, double qty, BigDecimal pricePerUnit, OrderType type)**
 
-public void cancelOrder(String orderId)
+**public void cancelOrder(String orderId)**
 
-public Result getSummaryOfLiveOrders()**
+**public Result getSummaryOfLiveOrders()**
 
 The usage has been demonstrated using the *main* function.
 
